@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/me.jpeg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hey,It's pleasure to meet you! Myself <span class="name">Kiruthika</span>
+                </h1>
+                <p>
+                    I'm a pre-final year Software Engineering Student.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/kiruthika-srinivasan-363358201/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/kiruthika631" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </header> 
+    <main>
+
+        <section class="section sec2 about" id="about">
+        <div class="main-title">
+            <h2>About <span>me</span></h2><br><br>
+        </div>
+        
+            <div class="center-about">
+                
+                <p>
+                    My name is Kiruthika Srinivasan. I'm a pre-final year Software Engineering student at VIT Vellore.
+                    I thrive on understanding different perspectives and learning from diverse experiences. I'm driven by a passion for achieving ambitious goals, both individually and collaboratively, through strategic planning and unwavering execution.<br>
+                </p>
+                <div class="btn-con">
+                    <a href="https://drive.google.com/file/d/1wfMtVJsiQLUvPS-GPhd2Xw_TCc4uoIB7/view?usp=sharing" class="main-btn">
+                        <span class="btn-text">Resume</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        <script>
+                            document.getElementById('floatingButton').addEventListener('click', function() {
+                                this.classList.toggle('clicked');
+                            });
+                        </script>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="about-stats">
+            <h4 class="stat-title">Education</h4>
+            <ul class="education-list">
+              <li>
+                <i class="fas fa-graduation-cap"></i> Class 10 | 91.20%
+              </li>
+              <li>
+                <i class="fas fa-graduation-cap"></i> Class 12 | 82%
+              </li>
+              <li>
+                <i class="fas fa-graduation-cap"></i> Master of Technology, Software Engineering | CGPA: 8.79
+              </li>
+            </ul>
+            <h4 class="stat-title">Skills</h4>
+<div class="skills-container">
+     <div class="left">
+        <h3 class="">Technical Skills</h3><br><br>
+        <ul class="interactive-list" style="list-style-type: disc;">
+            <li class="interactive-list-item" onclick="toggleSkill('Programming Language - Java, Python')">Programming Language - Java, Python</li>
+            <li class="interactive-list-item" onclick="toggleSkill('ProjectManagement')">Project management</li>
+            <li class="interactive-list-item" onclick="toggleSkill('AWS')">AWS</li>
+            <li class="interactive-list-item" onclick="toggleSkill('SQL')">SQL</li>
+            <li class="interactive-list-item" onclick="toggleSkill('UIUX')">UI/UX</li>
+            <li class="interactive-list-item" onclick="toggleSkill('Web Tech Languages - HTML, CSS, Javascript, Php')">Web Tech Languages - HTML, CSS, Javascript, Php</li>
+            <li class="interactive-list-item" onclick="toggleSkill('AgileMethodologies')">Agile Methodologies</li>
+            <li class="interactive-list-item" onclick="toggleSkill('InformationSecurity')">Information Security</li>
+            <li class="interactive-list-item" onclick="toggleSkill('NetworkDevices')">Network devices</li>
+            <li class="interactive-list-item" onclick="toggleSkill('TestingTools')">Testing tools - Neoload, Selenium</li>
+        </ul>
+    </div>
+    <div class="right">
+        <h3 class="">Soft Skills</h3><br><br>
+        <ul class="interactive-list">
+            <li class="interactive-list-item" onclick="toggleSkill('Adaptability')">Adaptability</li>
+            <li class="interactive-list-item" onclick="toggleSkill('Communication')">Communication</li>
+            <li class="interactive-list-item" onclick="toggleSkill('ProblemSolving')">Problem solving and critical thinking</li>
+            <li class="interactive-list-item" onclick="toggleSkill('Collaboration')">Collaboration</li>
+            <li class="interactive-list-item" onclick="toggleSkill('Innovation')">Innovation</li>
+            <li class="interactive-list-item" onclick="toggleSkill('TimeManagement')">Time management and prioritization</li>
+            <li class="interactive-list-item" onclick="toggleSkill('AttentionToDetail')">Attention to detail and accuracy</li>
+            <li class="interactive-list-item" onclick="toggleSkill('Leadership')">Leadership</li>
+        </ul>
+    </div>
+</div>
+
+            <script>
+                function toggleSkills(skillType) {
+                    alert(`You clicked on ${skillType} skills. Add your custom interactive action here.`);
+                    // You can customize this function to perform any interactive action when skills are clicked.
+                }
+                
+                function toggleSkill(skill) {
+                    alert('You clicked on ' + skill + '. Add your custom interactive action here.');
+                    // You can customize this function to perform any interactive action when a skill is clicked.
+                }
+            </script>
+        
+        <h4 class="stat-title">Experience</h4>
+        <div class="timeline">
+              <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2024</p>
+                <h5>CADP <span>JPMorgan Chase & Co</span></h5>
+                <p>Delivered focused on understanding corporate analysis and development. Built a Tableau dashboard 
+                   showcasing key metrics and trends. Developed a PowerPoint presentation documenting business processes and improvements.
+                <br></p>
+            </div>
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2023</p>
+                <h5>Graphic Design Intern <span>Oasis Infobyte.</span></h5>
+                <p>* Created Logo, Business card, Brochure, Infographics <br>* Effectively communicate design concepts and ideas with team members</p>
+            </div>
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2023</p>
+                <h5>Business Development Intern <span>Begin</span></h5>
+                <p>I gained insights into client relationship management, market research, sales strategies, lead generation, negotiation, data analysis, product knowledge, networking, and proposal development. <br></p>
+            </div>
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2023</p>
+                <h5>Game Organizer- <span>Matrix club VIT</span></h5>
+                <p>* Organized engaging games such as 'Escape the Matrix' and 'Bollywood Bash' <br>* showcasing my organizational and teamwork skills.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2022</p>
+                <h5>National Service Scheme (NSS) </span></h5>
+                <p>I dedicated my time to mentoring and teaching primary school students,<span> fostering their growth and providing them with guidance</p>
+            </div>
+        </div>
+        <div class="about-stats">
+            <h4 class="stat-title">Certification</h4>
+            <ul class="Certification-list">
+            <div class="about__container bd-grid">
+
+                <div>
+                    <a href="https://www.credly.com/badges/632efdcf-3e5a-43a8-8526-709dd8426c28/linked_in_profile" class="about__text">1. AWS Solution Architect Associate Certificate</a>
+                </div><br>
+                
+                <div>
+                    <a href="https://drive.google.com/file/d/1JeaivGxCFokuNm_hnQuj0Qq0hxaYSZGR/view?usp=sharing" class="about__text">2. Digital Skills on Artificial Intelligence under Accenture</a>
+                </div><br>
+                
+                <div>
+                    <a href="https://drive.google.com/file/d/1TKw52ntJ_EBJVEtDMewALYgrsI8whm56/view?usp=drive_link" class="about__text">3. AI for Women Program under GUVI Geek Networks</a>
+                </div><br>
+                
+                <div>
+                    <a href="https://drive.google.com/file/d/1Lh-2q6EvfDlHyL8zcr0hfBygVQtdpXDR/view?usp=drive_link" class="about__text">4. Web and Mobile design UI/UX, Figma</a>
+                </div><br>
+                
+                <div>
+                    <a href="https://drive.google.com/file/d/1oFbN_j0LSZviIcHFI_ByS8IcrXC7N9-d/view?usp=drive_link" class="about__text">5. Agile virtual job simulation by Cognizant</a>
+                </div><br>
+                <div>
+                    <a href="https://drive.google.com/file/d/1pwlPyA1pSqT8uVXv_WIe7z4mevWTslI1/view" class="about__text">6. Human Resource job simulation by GE</a>
+                </div><br>
+
+                <div>
+                    <a href="https://drive.google.com/file/d/1TcF6Up-U1s0lIeeYGmUewYCNwECK7udR/view?usp=drive_link" class="about__text">7. Graphic Design Internship</a>
+                </div><br>
+                <div>
+                    <a href="https://drive.google.com/file/d/1IpFf8pldsjAmeVQYkt50nW5EIKYK9wDk/view?usp=drive_link" class="about__text">8. Cloud Computing course completed from IBM</a>
+                </div><br>
+                <div>
+                    <a href="https://drive.google.com/file/d/1YaAgG6JNGSxke2GUc5-5lUXZHDgpQfEt/view?usp=drive_link" class="about__text">9. Project Management job simulation by Accenture</a>
+                </div><br>
+                
+                <div>
+                    <a href="https://drive.google.com/file/d/13r28zTf0hvzEXT-xHZZ1ugIPLRInUAwN/view?usp=drive_link" class="about__text">10. Power BI job simulation by Pwc Switzerland</a>
+                </div><br>
+                <div>
+                    <a href="https://drive.google.com/file/d/16ZmrNuGlZYgyTPy0Rm6MiRa89kGc5tI4/view?usp=drive_link" class="about__text">11. Business Development Intern offer letter</a>
+                </div><br>
+                <div>
+                    <a href="https://drive.google.com/file/d/1QjzTG5tk-MejS8Jx1ZeiiduW-HyJHFTm/view?usp=sharing" class="about__text">12. Corporate Analyst Development Program By JPMorgan chase & Co</a>
+                </div><br>
+            </div>
+                
+        </section>
+        
+
+        <section class="section sec3 portfolio" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My work</span></h2>
+            </div>
+           
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/1.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Project source</h3>
+                      <div class="icons">
+                         <a href="https://drive.google.com/file/d/1tfsSRED8nCHMT4lEQKL0d8FzAhppplAc/view?usp=sharing" target="_blank" class="icon">
+                            <i class="far fa-play-circle"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/2.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Project source</h3>
+                      <div class="icons">
+                         <a href="https://www.figma.com/file/kP4wuZ4rA2TGA8SOSQI06M/swap-landing-page?type=design&node-id=0-1&mode=design" target="_blank" class="icon">
+                            <i class="fab fa-figma"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/3.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Project source</h3>
+                      <div class="icons">
+                         <a href="https://www.figma.com/file/pGkm6iY9a5nigjr3ihELPG/Designing-a-mobile-shopping-application?type=design&node-id=26596-942&mode=design" target="_blank" class="icon">
+                            <i class="fab fa-figma"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/4.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Project source</h3>
+                      <div class="icons">
+                         <a href="https://drive.google.com/file/d/1JcGdBuAqT1ac4aDF2cjcO4RaPgwBXQwI/view" target="_blank" class="icon">
+                            <i class="far fa-play-circle"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/5.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Project source</h3>
+                      <div class="icons">
+                         <a href="https://github.com/kiruthika631/Phishing-website-detection.io" target="_blank" class="icon">
+                            <i class="fab fa-github"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/6.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Project source</h3>
+                      <div class="icons">
+                         <a href="https://github.com/kiruthika631/Heart-Disease-Detection" target="_blank" class="icon">
+                            <i class="fab fa-github"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/7.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Project source</h3>
+                      <div class="icons">
+                         <a href="https://github.com/kiruthika631/twitter_data_analysis" target="_blank" class="icon">
+                            <i class="fab fa-github"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/8.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Project source</h3>
+                      <div class="icons">
+                         <a href="https://www.figma.com/design/pGkm6iY9a5nigjr3ihELPG/Designing-a-mobile-shopping-application?node-id=26596-942&t=zCp0tNgxRpOctBCJ-0" target="_blank" class="icon">
+                            <i class="fab fa-github"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section sec4 games" id="games"></section>
+        <section class="section sec5 contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Get in <span>Touch</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me Here</h4>
+                        <p>
+                           Let's connect!
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Location
+                                </div>
+                                   <p> : Polur, TamilNadu </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: kiruthikasri631@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                    Mobile
+                                </div>
+                                <p> : 6369954979 </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-asia"></i>
+                                    <p>Languages</p>
+                                </div>
+                                <div class="languages">
+                                    <ul>
+                                        <li>
+                                            <p>English - Professional Working Proficiency</p>
+                                        </li>
+                                        <li>
+                                            <p>Tamil - Native or Bilingual Proficiency</p>
+                                        </li>
+                                        <li>
+                                            <p>French - Elementary Proficiency</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.facebook.com/kiruthika.srinivasan.9674" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://github.com/kiruthika631" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/kiruthika-srinivasan-363358201/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="#" class="main-btn">
+                                    <span class="btn-text">Send</span>
+                                    <span class=""><i class="fas fa-send"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <div class="controlls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control control-2 " data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control control-3 " data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+    
+        <div class="control control-5 " data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+    
+    
+    
+</body>
+</html>
